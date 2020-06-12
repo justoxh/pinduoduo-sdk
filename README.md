@@ -24,5 +24,5 @@
  
 ```
 
-fork for dcsunny/pinduoduo-sdk 
+fork for github.com/dcsunny/pinduoduo-sdk 
 thanks !
