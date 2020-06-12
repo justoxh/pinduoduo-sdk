@@ -1,8 +1,8 @@
 package goods
 
 import (
-	"github.com/dcsunny/pinduoduo-sdk/common"
-	"github.com/dcsunny/pinduoduo-sdk/util"
+	"github.com/justoxh/pinduoduo-sdk/common"
+	"github.com/justoxh/pinduoduo-sdk/util"
 )
 
 /**

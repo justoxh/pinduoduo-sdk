@@ -1,8 +1,8 @@
 package ddk
 
 import (
-	"github.com/dcsunny/pinduoduo-sdk/common"
-	"github.com/dcsunny/pinduoduo-sdk/util"
+	"github.com/justoxh/pinduoduo-sdk/common"
+	"github.com/justoxh/pinduoduo-sdk/util"
 )
 
 /**
@@ -16,6 +16,7 @@ type RpPromUrlGenerateParams struct {
 	GenerateWeappWebview *bool   `json:"generate_weapp_webview,omitempty"`    //是否唤起微信客户端， 默认false 否，true 是
 	WeAppWebViewShortUrl *bool   `json:"we_app_web_view_short_url,omitempty"` //唤起微信app推广短链接
 	WeAppWebWiewUrl      *bool   `json:"we_app_web_wiew_url,omitempty"`       //唤起微信app推广链接
+	ChannelType  		int 	 `json:"channel_type"`  //入参channel_type：-1-活动列表；0-默认红包；2–新人红包；3-刮刮卡；5-员工内购；6-购物车；7-大促会场）
 }
 
 type RpPromUrlGenerateResult struct {

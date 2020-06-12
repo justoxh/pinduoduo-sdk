@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dcsunny/pinduoduo-sdk/util"
+	"github.com/justoxh/pinduoduo-sdk/util"
 )
 
 type Context struct {

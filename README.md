@@ -7,8 +7,8 @@
     import (
     	"fmt"
     
-    	"github.com/dcsunny/pinduoduo-sdk/common"
-    	"github.com/dcsunny/pinduoduo-sdk/ddk"
+    	"github.com/justoxh/pinduoduo-sdk/common"
+    	"github.com/justoxh/pinduoduo-sdk/ddk"
     )
     
     func main() {
@@ -23,3 +23,6 @@
     }
  
 ```
+
+fork for dcsunny/pinduoduo-sdk 
+thanks !
